@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/asmboutk/Examples/ansible_labs/dne-dna-code/lab/bin/python3.9"
+    "python.pythonPath": "/Users/asmboutk/Examples/ansible_labs/dne-dna-code/lab/bin/python3.9",
+    "git.ignoreLimitWarning": true
 }
