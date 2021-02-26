@@ -5,7 +5,7 @@
   gather_facts: no
 
   tasks:
-
+    
   - name: run show ntp associations
     ios_command:
       commands: show ntp associations
