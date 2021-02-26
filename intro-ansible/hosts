@@ -3,17 +3,17 @@ ansible_python_interpreter="/usr/bin/env python"
 
 [iosxe:vars]
 # Fill in a unique pod name with no spaces
-user_pod = asmBoutkPod2_lab3
+user_pod = asmBoutkPod_lab4
 # Fill in a pod number between 10 and 250
-pod_number = 30
+pod_number = 31
 
 # The next two variables are only required for the DevNet Express Mission. When you get to the mission it will instruct
 # you to fill these in. If you are using the sandbox lab, you may ignore them.
 
 # Fill in your Webex Teams auth token from https://developer.webex.com/getting-started.html
-webex_token = mytokenabcdef
+webex_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI2MDJkNTgyMjdiM2FhOTA2ZWRlYzkyYTEiLCJhdXRoU291cmNlIjoiaW50ZXJuYWwiLCJ0ZW5hbnROYW1lIjoiVE5UMCIsInJvbGVzIjpbIjVlNWE0MzI1NzUxNjEyMDBjYzRhYzk1ZSJdLCJ0ZW5hbnRJZCI6IjVlNWE0MzI1NzUxNjEyMDBjYzRhYzk1YyIsImV4cCI6MTYxNDM1NjAyMSwiaWF0IjoxNjE0MzUyNDIxLCJqdGkiOiIzZjg4ZmY2Yy0zNzJiLTQwZDktYTRkYy1jMjczNjc4MDU0Y2EiLCJ1c2VybmFtZSI6ImRuYWNkZXYifQ.mTv88cdI1bSPDYwN9Q6IwS_xV-ev6SbrDk0CAugZ4Gxrhhy1haLrS8z_A9JtxJj89hRZyImkLn4Zi3fyd9xIM469ONm48i4L_5B1SRzu7p0l9chPcCSXVJp9j3lcD8UzUMVCqd8ukkJQtEXYMm2BfkjrsVd1J5yx2G-C3GlOdeUmJb4kvsrBGd6uwIi8omnPviuCQmaidS-DlMuo2N1KMRcNCegxZNHBPtga-gHGn7VbfbW1kgA66AE-6IG1q4EPcB2GHEa8GexWuWjaSPVs6vMi44WHHh2WXZ52WF-b8KHLCcd4xvWDWWrME-t-JDMJHbunE2X8KlxYpsGFOvvKLQ
 # Fill in your Webex Teams room id you wish to post to
-webex_room_id = roomIDabc123456defghi789jklmnopqr0
+webex_room_id = Y2lzY29zcGFyazovL3VzL1JPT00vM2ZmOWNmODAtNzY4Yi0xMWViLWE4MzQtYTNmNGYzYTUyMDZi
 
 
 [iosxe:children]
