@@ -3,9 +3,9 @@ ansible_python_interpreter="/usr/bin/env python"
 
 [iosxe:vars]
 # Fill in a unique pod name with no spaces
-user_pod = asmBoutkPod_lab3
+user_pod = asmBoutkPod2_lab3
 # Fill in a pod number between 10 and 250
-pod_number = 29
+pod_number = 30
 
 # The next two variables are only required for the DevNet Express Mission. When you get to the mission it will instruct
 # you to fill these in. If you are using the sandbox lab, you may ignore them.
@@ -27,5 +27,5 @@ express
 
 
 [express]
-198.18.134.11  # dcloud pod router #1
-198.18.134.12  # dcloud pod router #2
+#198.18.134.11  # dcloud pod router #1
+#198.18.134.12  # dcloud pod router #2
